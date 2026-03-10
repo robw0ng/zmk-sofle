@@ -26,8 +26,8 @@ layers:
   - I
   - O
   - P
+  - {t: '=', s: +}
   - {t: '[', s: '{'}
-  - $$mdi:apple-keyboard-caps$$
   - A
   - S
   - D
@@ -41,18 +41,18 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
+  - {t: ']', s: '}'}
   - Z
   - X
   - C
   - V
-  - B
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - B
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
@@ -64,7 +64,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - {t: layer1, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   layer1:
   - {t: '`', s: '~'}
   - F1
@@ -87,11 +87,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
-  - END
-  - $$mdi:arrow-up-bold$$
   - HOME
+  - $$mdi:arrow-up-bold$$
+  - END
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ']', s: '}'}
+  - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -103,20 +103,20 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - F11
+  - F12
+  - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
   - RGB EFF
   - RGB EFR
-  - RGB SPI
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - RGB SPI
   - RGB BRI
   - RGB BRD
-  - Ins
-  - F11
-  - F12
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: \, s: '|'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
